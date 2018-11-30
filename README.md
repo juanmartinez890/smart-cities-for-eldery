@@ -1,11 +1,11 @@
-# Smart Cities for Eldery
+# Smart Mobility for Eldery
 
 ![alt text](http://juanjmartinez.me/img/smart.png)
 ![alt text](http://juanjmartinez.me/img/smart3.png)
 ![alt text](http://juanjmartinez.me/img/smart2.png)
 
 
- Smart Cities for Eldery is a map-based web application for Cyber-shARE that performs SPARQL queries using a rest API to get detailed information about users for the cyberinfrastructure applications course. I worked developing the front and back end of the project. PHP, SPARQL, Bootstrap, and AngularJS were used to develop this website.
+ Smart Mobility for Eldery is a map-based web application for Cyber-shARE that performs SPARQL queries using a rest API to get detailed information about users for the cyberinfrastructure applications course. I worked developing the front and back end of the project. PHP, SPARQL, Bootstrap, and AngularJS were used to develop this website.
 
 ## Getting Started
 
