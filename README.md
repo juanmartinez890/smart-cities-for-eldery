@@ -1,9 +1,11 @@
-# Smart Fleet Manager
+# Smart Cities for Eldery
 
-![alt text](http://juanjmartinez.me/img/smart_fleet.png)
+![alt text](http://juanjmartinez.me/img/smart.png)
+![alt text](http://juanjmartinez.me/img/smart3.png)
+![alt text](http://juanjmartinez.me/img/smart2.png)
 
-Smart Fleet Manager is a single page website used by VIMA Transportation Inc. specially design to connect a dispatcher with
-drivers and brokers. The dispatcher can create, edit and delete loads and tirps. Once a trip is created, loads can be added to that trip. Load confirmation contracts can be uploaded to a specific load for later use. This program is also design to keep track of invoice numbers in order to identift the ones that need to created on a particular date. Load status and some trip information can be updated by drivers from an android app named load stauts. The server's site is also used to store geolocation information collected from the load status app in order to deliver this information to track a load to brokers.
+
+ Smart Cities for Eldery is a map-based web application for Cyber-shARE that performs SPARQL queries using a rest API to get detailed information about users for the cyberinfrastructure applications course. I worked developing the front and back end of the project. PHP, SPARQL, Bootstrap, and AngularJS were used to develop this website.
 
 ## Getting Started
 
