@@ -1,0 +1,60 @@
+<!-- NAVIGATION -->
+<nav class="navbar navbar-default navbar-fixed-top">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>                        
+			</button>
+			<a class="navbar-brand" href="#basicHome">Smart <span class="glyphicon glyphicon-map-marker"></span> Mobility</a>
+		</div>
+		<div class="collapse navbar-collapse" id="myNavbar">
+			<ul class="nav navbar-nav navbar-right">
+				<li><a>{{userEmail}}</a></li>
+				<li><a href="#logout"><span class="glyphicon glyphicon-log-in"></span> Logout</a></li>
+			</ul>
+		</div>
+	</div>
+</nav>
+
+<!-- PAGE CONTENT -->		
+<div class="container-fluid" style="margin-top:75px;margin-bottom:75px">
+<!-- COL 3 -->
+<div class="row">
+	<div class="col-md-3">
+</div>
+<!-- COL 6 -->
+<div class="col-md-6"> 
+<!-- SHOW ERROR/SUCCESS MESSAGES -->
+<div id="messages" class="alert alert-danger" ng-show="message" align="center">{{ message }}</div>
+<form ng-submit="processForm()">
+	<div class="row">
+		<div class="col-sm-9">
+		<!-- EMAIL -->
+		<div class="input-group">
+			<span class="input-group-addon"><i class="glyphicon glyphicon-search"></i></span>
+			<input type="text" name="destination" class="form-control" placeholder="Enter Location" ng-model="formData.destination">
+		</div>
+		<span class="help-block" ng-show="errorEmail"><p class="text-danger">{{errorDestination}}</p></span>
+		</div>
+		<div class="col-sm-3">
+		<!-- LOGIN BUTTON -->
+		<button type="submit" class="btn btn-success btn-block">Get Directions</button>	
+		</div>
+  	</div>
+</form>
+<!-- COL 3 -->
+</div>
+	<div class="col-md-3"> 
+</div>
+</div>
+
+<!-- FOOTER -->
+<nav class="navbar navbar-default navbar-fixed-bottom">
+	<div class="container-fluid">
+		<div class="navbar-header navbar-right">
+			<a class="navbar-brand" href="#" style="font-size:1em;" >The University of Texas at El Paso</a>
+		</div>
+	</div>
+</nav>
